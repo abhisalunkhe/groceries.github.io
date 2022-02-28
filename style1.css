@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-weight: bolder;
+}
+nav{
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4));
+    width:100%;
+    float: right;
+}
+nav ul{
+    flex: 2;
+    text-align: center;
+    font-size: 25px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 30px;
+    color: #fff;
+    font-size: larger;
+}
+nav ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+    border-radius: 20%;
+}
+.logo{
+	width: 130px;
+	cursor: pointer;
+    height: 80px;
+    border-radius: 30px;
+}
+.main-img img{
+    width: 100%;
+    height: 450px;
+}
+.main-img h1{
+    margin-top: -460px;
+    margin-left: 850px;
+    font-size: 35px;
+    color: rgba(48, 23, 3, 0.849);
+}
+.main-img p{
+    margin-left: 800px;
+    font-size: 65px;
+    margin-top: -20px;
+    font-family: cursive;
+}
+.main-img h2{
+    margin-left: 920px;
+    font-size: 35px;
+    color: green;
+}
+.main-img button{
+    margin-left: 950px;
+    margin-top: 0px;
+}
+button{
+    background: linear-gradient(black);
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 30px;
+    background: linear-gradient(rgba(0,0,0,0.7),silver);
+    font-weight: bolder;
+}
+button:hover{
+    background: linear-gradient(rgba(0,0,0,0.6),red);
+    color: #fff;
+}
+.sections{
+    height: 580px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(238, 91, 91, 0.5));
+}
+.sections img{
+    width: 220px;
+    height: 220px;
+    margin-top: 270px;
+    padding-left: 50px;
+    border-radius: 40px;
+    margin-left: 55px;
+}
+.sections h1{
+    display: inline-block;
+    padding-left: 50px;
+    border-radius: 40px;
+    margin-left: 30px;
+    color: rgb(4, 88, 8);
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+}
+.sections h1:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.head1{
+    padding-left: 35px;
+}
+.images{
+    background: linear-gradient(rgba(0,0,0,0.4),rgb(235, 47, 47));
+    height: 750px;
+    justify-content: center;
+}
+.images img{
+    width: 230px;
+    height: 180px;
+    margin-left: 10px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+}
+.foot{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(238, 91, 91, 0.5));
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.categories{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.categories ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.categories ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.categories ul a:hover{
+    color: coral;
+}
+.information{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.information ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.information ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.information ul a:hover{
+    color: coral;
+}
+.my_account{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.my_account ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.my_account ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.my_account ul a:hover{
+    color: coral;
+}
+.follow_us{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.follow_us ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.follow_us ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.follow_us ul a:hover{
+    color: coral;
+}
+.rights{
+    margin-top: -25px;
+    text-align: center;
+}

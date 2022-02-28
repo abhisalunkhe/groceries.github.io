@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-weight: bolder;
+}
+nav{
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4));
+    width:100%;
+    float: right;
+}
+nav ul{
+    flex: 2;
+    text-align: center;
+    font-size: 25px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 30px;
+    color: #fff;
+    font-size: larger;
+}
+nav ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+    border-radius: 20%;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+    height: 80px;
+    border-radius: 50px;
+    border-radius: 30px;
+}
+.main-div{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.2),#fff);
+    text-align: center;
+    display: flex;
+}
+.form{
+    width: 450px;
+    height: 440px;
+    margin-left: 600px;
+    border: 5px dashed black;
+    margin-top: 100px;
+    font-family: cursive;
+    color: black;
+    border-radius: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: -55px;
+}
+.img{
+    width:60px;
+    height: 80px;
+    margin-right: 10px;
+}
+nav ul{
+    flex:2;
+    text-align:center;
+    font-size: 25px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 30px;
+    color: #fff;
+    font-size: larger;
+}
+nav ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+    border-radius:20%;
+}
+.logo{
+	width: 130px;
+	cursor: pointer;
+    height: 140px;
+    border-radius:10px;
+}
+h1{
+    margin-top: 10px;
+}
+hr{
+    margin-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+    height: 3px;
+    border: 2px dashed green;
+}
+label{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 20px;
+    padding: 20px;
+}
+input{
+    border: 3px solid yellowgreen;
+    border-radius: 30px;
+    width: 155px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+input:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(162, 219, 130));
+    cursor: pointer;
+}
+.content{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+button:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(58, 219, 18));
+    color: #eeea0e;
+}
+a{
+    text-decoration: none;
+    color: #f5f10d;
+    font-size: larger;
+    margin-top: 20px;
+}
+a:hover{
+    color: rgb(33, 236, 236);
+}
+p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+}
+.foot{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.categories{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.categories ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.categories ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.categories ul a:hover{
+    color: coral;
+}
+.information{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.information ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.information ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.information ul a:hover{
+    color: coral;
+}
+.my_account{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.my_account ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.my_account ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.my_account ul a:hover{
+    color: coral;
+}
+.follow_us{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.follow_us ul li{
+    list-style: none;
+    font-size: larger;
+    font-size: 25px;
+}
+.follow_us ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+.follow_us ul a:hover{
+    color: coral;
+}
+.rights{
+    margin-top: -25px;
+    text-align: center;
+}
